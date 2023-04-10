@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Moses Kumie</a>
@@ -30,64 +32,91 @@
       </ul>
     </div>
   </nav>
+
   <div class="container mt-5">
     <h1 class="text-center mb-4">Moses Kumie</h1>
     <h2 class="text-center mb-4">Fullstack Web Developer</h2>
-    <hr><h3 class="mt-5" id="projects">Projects</h3>
     <hr>
-    <div class="row mt-3">
-      <div class="col-md-6">
-        <div class="card">
-          <img class="card-img-top" src="https://i.imgur.com/hfjbRcr.png" alt="MHTC Student Management App">
-          <div class="card-body">
-            <h5 class="card-title">MHTC Student Management App</h5>
-            <p class="card-text">A web application for managing student data, including profiles, attendance, grades, and
-              assignments. The app's frontend is built using React and is deployed on Vercel, while the backend is built
-              using Django and is deployed on AWS. The app uses RDS for database management.</p>
-            <a href="https://mhtcapp.vercel.app" class="btn btn-primary" target="_blank">View App</a>
+      
+        <h3 class="mt-5" id="projects">Projects</h3>
+        <hr>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="https://i.imgur.com/hfjbRcr.png" alt="MHTC Student Management App">
+              <div class="card-body">
+                <h5 class="card-title">MHTC Student Management App</h5>
+                <p class="card-text">A web application for managing student data, including profiles, attendance, grades, and
+                  assignments. The app's frontend is built using React and is deployed on Vercel, while the backend is built
+                  using Django and is deployed on AWS. The app uses RDS for database management.</p>
+                <a href="https://mhtcapp.vercel.app" class="btn btn-primary" target="_blank">View App</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="https://i.imgur.com/3z3qoIF.png" alt="Netflix Clone">
+              <div class="card-body">
+                <h5 class="card-title">Netflix Clone</h5>
+                <p class="card-text">A clone of the Netflix website that allows users to browse and watch popular movies and
+                  TV shows. The app is built using React and is deployed on Firebase.</p>
+                <a href="https://netflix-clone-92d28.web.app/" class="btn btn-primary" target="_blank">View App</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="card">
-          <img class="card-img-top" src="https://i.imgur.com/3z3qoIF.png" alt="Netflix Clone">
-          <div class="card-body">
-            <h5 class="card-title">Netflix Clone</h5>
-            <p class="card-text">A clone of the Netflix website that allows users to browse and watch popular movies and
-              TV shows. The app is built using React and is deployed on Firebase.</p>
-            <a href="https://netflix-clone-92.firebaseapp.com/" class="btn btn-primary" target="_blank">View App</a>
+      <div class="container mt-5">
+        <h3 class="mt-5" id="contact">Contact</h3>
+        <hr>
+        <div class="row mt-3">
+        <div class="col-md-6">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Contact Me</h5>
+                <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Connect with Me</h5>
+                <p class="card-text">You can find me on these social media platforms:</p>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/moseskumie/" target="_blank">LinkedIn</a>
+                </li>
+                <li class="list-group-item"><a href="https://twitter.com/MosesKumie" target="_blank">Twitter</a></li>
+                <li class="list-group-item"><a href="https://github.com/moseskumie" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
         </div>
     </div>
-  </div>
-</div>
-<div class="container mt-5" id="contact">
-  <h3>Contact Me</h3>
-  <hr>
-  <form>
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" class="form-control" id="name" placeholder="Enter your name">
-    </div>
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter your email address">
-    </div>
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea class="form-control" id="message" rows="5"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
-<!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-  crossorigin="anonymous"></script>
-</body>
-</html
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
+  </html>
